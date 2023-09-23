@@ -1,5 +1,26 @@
 .slider-section {
     padding: 131px 65px;
-    background-color: #100F0F;
-    color: #fff;
+    background-color: #000000;
 }
+
+.swiper {
+    width: 1151px;
+    margin-bottom: 8px;
+}
+
+.swiper-wrapper {
+    width: 1038px;
+    height: 504px;
+    margin: 0 auto;
+}
+
+.swiper-slide img {
+    border-radius: 8px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: #F3F3F3;
+    font-size: 23px;
+}
+
