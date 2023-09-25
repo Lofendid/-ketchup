@@ -6,6 +6,7 @@
 .swiper {
     width: 1151px;
     margin-bottom: 8px;
+    border-radius: 8px;
 }
 
 .swiper-wrapper {
@@ -24,3 +25,22 @@
     font-size: 23px;
 }
 
+
+.swiper-pagination {
+    position: static;
+}
+
+
+.swiper-pagination-bullet {
+    background: #6F6666;
+    opacity: 1;
+    width: 8px;
+    height: 8px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #6F6666;
+    border: 1px solid #F3F3F3;
+    width: 6px;
+    height: 6px;
+}

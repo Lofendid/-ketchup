@@ -6,6 +6,7 @@ const swiper = new Swiper('.swiper', {
   // Pagination
   pagination: {
     el: '.swiper-pagination',
+    clickable: true,
   },
 
   // Navigation arrows
