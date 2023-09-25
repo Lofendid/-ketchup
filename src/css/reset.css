@@ -1,4 +1,11 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* Reset styles */
+
+
 body {
   margin: 0;
 }
